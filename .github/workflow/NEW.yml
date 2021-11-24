@@ -12,9 +12,9 @@ jobs:
     - name: Downloading Ngrok.
       run: |
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
-        Invoke-WebRequest https://raw.githubusercontent.com/StepenGans/awoked/main/start.bat -OutFile start.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/StepenGans/awoked/main/wallpaper.jpg -OutFile wallpaper.jpg
-        Invoke-WebRequest https://raw.githubusercontent.com/StepenGans/awoked/main/wallpaper.bat -OutFile wallpaper.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/StepenGans/free-rdp/main/start.bat -OutFile start.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/StepenGans/free-rdp/main/wallpaper.jpg -OutFile wallpaper.jpg
+        Invoke-WebRequest https://raw.githubusercontent.com/StepenGans/free-rdp/main/wallpaper.bat -OutFile wallpaper.bat
     - name: Extracting Ngrok Files.
       run: Expand-Archive ngrok.zip
     - name: Connecting to your Ngrok account.
@@ -34,21 +34,21 @@ jobs:
       run: cmd /c start.bat
     - name: RDP is ready!
       run: | 
-        Invoke-WebRequest https://github.com/StepenGans/awoked/raw/main/loop.ps1 -OutFile loop.ps1
+        Invoke-WebRequest https://github.com/StepenGans/free-rdp/raw/main/loop.ps1 -OutFile loop.ps1
         ./loop.ps1
     - name: RDP is ready 2!
       run: | 
-        Invoke-WebRequest https://github.com/StepenGans/awoked/raw/main/loop.ps1 -OutFile loop.ps1
+        Invoke-WebRequest https://github.com/StepenGans/free-rdp/raw/main/loop.ps1 -OutFile loop.ps1
         ./loop.ps1
     - name: RDP is ready3!
       run: | 
-        Invoke-WebRequest https://github.com/StepenGans/awoked/raw/main/loop.ps1 -OutFile loop.ps1
+        Invoke-WebRequest https://github.com/StepenGans/free-rdp/raw/main/loop.ps1 -OutFile loop.ps1
         ./loop.ps1
     - name: RDP is ready4!
       run: | 
-        Invoke-WebRequest https://github.com/StepenGans/awoked/raw/main/loop.ps1 -OutFile loop.ps1
+        Invoke-WebRequest https://github.com/StepenGans/free-rdp/raw/main/loop.ps1 -OutFile loop.ps1
         ./loop.ps1
     - name: RDP is ready5!
       run: | 
-        Invoke-WebRequest https://github.com/StepenGans/awoked/raw/main/loop.ps1 -OutFile loop.ps1
+        Invoke-WebRequest https://github.com/StepenGans/free-rdp/raw/main/loop.ps1 -OutFile loop.ps1
         ./loop.ps1
